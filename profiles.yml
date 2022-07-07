@@ -1,0 +1,7 @@
+dbt_duckdb_chinook:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: './target/chinook.duckdb'
+      threads: 1

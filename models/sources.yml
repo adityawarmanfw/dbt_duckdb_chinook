@@ -1,0 +1,38 @@
+version: 2
+
+sources:
+  - name: csv
+    tables:
+      - name: album
+        external:
+          location: 'csvs/album.csv'
+      - name: artist
+        external:
+          location: 'csvs/artist.csv'
+      - name: customer
+        external:
+          location: 'csvs/customer.csv'
+      - name: employee
+        external:
+          location: 'csvs/employee.csv'
+      - name: genre
+        external:
+          location: 'csvs/genre.csv'
+      - name: invoice_line
+        external:
+          location: 'csvs/invoice_line.csv'
+      - name: invoice
+        external:
+          location: 'csvs/invoice.csv'
+      - name: media_type
+        external:
+          location: 'csvs/media_type.csv'
+      - name: playlist_track
+        external:
+          location: 'csvs/playlist_track.csv'
+      - name: playlist
+        external:
+          location: 'csvs/playlist.csv'
+      - name: track
+        external:
+          location: 'csvs/track.csv'
